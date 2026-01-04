@@ -2,7 +2,7 @@
 
 What I built:
 
-I moved a physical library into the digital world! I created a "Server Engine" that talks to a database. It doesn't just store names; it understands them, validates them, and filters them.
+     I moved a physical library into the digital world! I created a "Server Engine" that talks to a database. It doesn't just store names; it understands them, validates them, and filters them.
 
 1. The "Power Tools" I Used🛠️
          Instead of just listing them, here is how I actually used them:
@@ -31,15 +31,16 @@ I moved a physical library into the digital world! I created a "Server Engine" t
                 MongoDB filters them in milliseconds and sends them back to me.
  
  3. My API Endpoints (The Control Panel)🚦
-      I designed three specific "buttons" for my system:
-      Action - Path - What happens technically? 
-      ADD - `POST /books` - Creates a new record. 
-      VIEW ALL -`GET /books`-Shows the whole library.
-      FILTER -`GET /books/recent` -Runs a logic to find books after 2015. 
 
-4. Why this project is special ✨
+                 I designed three specific "buttons" for my system:
+                 Action - Path - What happens technically? 
+                 ADD - `POST /books` - Creates a new record. 
+                 VIEW ALL -`GET /books`-Shows the whole library.
+                 FILTER -`GET /books/recent` -Runs a logic to find books after 2015. 
 
-     It's Fast:I used `async/await` so the server never freezes.
-     It's Smart: It knows the difference between a book from 2010 and 2020.
-     It's Clean: I used a `.gitignore` so I don't upload "trash" files to GitHub
+5. Why this project is special ✨
+
+                 It's Fast:I used `async/await` so the server never freezes.
+                 It's Smart: It knows the difference between a book from 2010 and 2020.
+                 It's Clean: I used a `.gitignore` so I don't upload "trash" files to GitHub
        
