@@ -36,7 +36,7 @@ app.post('/books', async (req, res) => {
     }
 });
 
-// READ: All books
+// READ: All booksgit remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 app.get('/books', async (req, res) => {
     const books = await Book.find();
     res.send(books);
