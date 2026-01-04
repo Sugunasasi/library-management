@@ -18,7 +18,7 @@ I moved a physical library into the digital world! I created a "Server Engine" t
              Git & GitHub: My "Time Machine." It saved my progress and let me host my code for the world to see.
 
 2. The Workflow: How Data Moves🔄
-          Here is the journey of a book in my system:
+
             Step 1: The Request (Input):
                 I open Thunder Client and type in a book's details (Title, Author, Year). I hit **SEND**.
             Step 2: The Validation (Security):
